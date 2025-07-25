@@ -8,7 +8,7 @@ function InputForm() {
   const params = {
     model: "gpt-3.5-turbo",
     temperature: 0.5,
-    max_tokens: 11,
+    max_tokens: 20,
   };
 
   const handlePromptSubmit = async (e) => {
